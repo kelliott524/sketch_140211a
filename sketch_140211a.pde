@@ -5,12 +5,10 @@ void setup() {
   smooth();
   noStroke();
   
-int[] nums = {3, 9};
+string[]edibles = {banana, apples, berries, pineapple};
 
-int which = int(random(nums.length));
+for (int i = 0; i<edibles.length; i++) {
+  text (edibles[i], width/2, 10*1); 
+} 
 
-println(which);
-println(nums[which]);
 }
-
-
